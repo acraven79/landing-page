@@ -46,3 +46,47 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 25px 0px 500px;
+    overflow: hidden;
+    font-family: arial, helvetica;
+}
+
+li {
+    float: left;
+}
+
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 15px;
+}
+a:link, a:visited {
+    display: block;
+    color: gray;
+    background-color: none;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    }
+.active {
+	font-weight: 600;
+}
